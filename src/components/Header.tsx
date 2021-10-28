@@ -1,6 +1,11 @@
 import React from "react";
 
-function Header({ currentScore, highestScore }) {
+type Props = {
+  highestScore: number;
+  currentScore: number[];
+}
+
+const Header: React.FC<Props> = ({ currentScore, highestScore }) => {
   return (
     <div className="header">
       <h1>Dune Memory Game</h1>

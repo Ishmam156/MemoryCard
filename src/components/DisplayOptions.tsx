@@ -1,16 +1,24 @@
-import React from "react";
-import { initialData } from "../helper";
+import React, { Dispatch, SetStateAction } from "react";
+import { initialData, ImageData} from "../util/helper";
 
-function DisplayOptions({
+type Props = {
+  highestScore: number;
+  currentScore: number[];
+  setWinner: Dispatch<SetStateAction<boolean>>;
+  setCurrentScore: Dispatch<SetStateAction<number[] | []>>
+  setHighestScore: Dispatch<SetStateAction<number>>
+}
+
+const DisplayOptions: React.FC<Props> = ({
   currentScore,
   highestScore,
   setWinner,
   setCurrentScore,
   setHighestScore,
-}) {
+}) => {
   const shuffleArray = () => {
-    const newArray = [];
-    const indexTried = [];
+    const newArray: ImageData[] = [];
+    const indexTried: number[] = [];
 
     for (let index = 0; index < initialData.length; index++) {
       let randomIndex = Math.floor(Math.random() * initialData.length);
@@ -34,7 +42,6 @@ function DisplayOptions({
             onClick={() => {
               if (!currentScore.includes(item.id)) {
                 setCurrentScore([...currentScore, item.id]);
-                console.log({ currentScore });
                 if (currentScore.length + 1 === initialData.length) {
                   setWinner(true);
                 }

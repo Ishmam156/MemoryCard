@@ -3,12 +3,12 @@ import Header from "./components/Header";
 import Winner from "./components/Winner";
 import Footer from "./components/Footer";
 import DisplayOptions from "./components/DisplayOptions";
-import "./App.css";
+import "./styles/App.css";
 
-function App() {
-  const [currentScore, setCurrentScore] = useState([]);
-  const [highestScore, setHighestScore] = useState(0);
-  const [winner, setWinner] = useState(false);
+const App: React.FC = () => {
+  const [currentScore, setCurrentScore] = useState<number[] | []>([]);
+  const [highestScore, setHighestScore] = useState<number>(0);
+  const [winner, setWinner] = useState<boolean>(false);
 
   return (
     <>
@@ -17,7 +17,6 @@ function App() {
         {winner && <Winner />}
         {!winner && (
           <DisplayOptions
-            // initialData={initialData}
             currentScore={currentScore}
             highestScore={highestScore}
             setWinner={setWinner}

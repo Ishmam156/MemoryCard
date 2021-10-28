@@ -1,17 +1,23 @@
 // Import all the character images
 
-import Baron from "./img/Baron.jpeg";
-import Duncan from "./img/Duncan.jpeg";
-import Jessica from "./img/Jessica.jpeg";
-import Liet from "./img/Liet.jpeg";
-import Thufir from "./img/Thufir.jpeg";
-import Yueh from "./img/Yueh.jpeg";
-import Paul from "./img/Paul.jpeg";
-import Leto from "./img/Leto.jpeg";
-import Gurney from "./img/Gurney.jpeg";
-import Chani from "./img/Chani.jpeg";
+import Baron from "../img/Baron.jpeg";
+import Duncan from "../img/Duncan.jpeg";
+import Jessica from "../img/Jessica.jpeg";
+import Liet from "../img/Liet.jpeg";
+import Thufir from "../img/Thufir.jpeg";
+import Yueh from "../img/Yueh.jpeg";
+import Paul from "../img/Paul.jpeg";
+import Leto from "../img/Leto.jpeg";
+import Gurney from "../img/Gurney.jpeg";
+import Chani from "../img/Chani.jpeg";
 
-export const initialData = [
+export type ImageData = {
+  id: number,
+  character: string,
+  imgSrc: string,
+};
+
+export const initialData: ImageData[] = [
   {
     id: 1,
     character: "Baron Vladimir",
@@ -61,5 +67,5 @@ export const initialData = [
     id: 10,
     character: "Chani",
     imgSrc: Chani,
-  },
+  }
 ];
