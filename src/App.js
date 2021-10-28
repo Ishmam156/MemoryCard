@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 import Baron from "./img/Baron.jpeg";
-import Duncan from "./img/Duncan.png";
+import Duncan from "./img/Duncan.jpeg";
 import Jessica from "./img/Jessica.jpeg";
 import Liet from "./img/Liet.jpeg";
 import Thufir from "./img/Thufir.jpeg";

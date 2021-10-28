@@ -21,6 +21,7 @@ body {
   gap: 2em;
   justify-content: center;
   align-items: center;
+  margin: 0.5em 0em;
 }
 
 .scores span {
@@ -46,6 +47,7 @@ body {
   border-radius: 1em;
   text-align: center;
   padding: 1em;
+  cursor: pointer;
 }
 
 .singleItem p {
