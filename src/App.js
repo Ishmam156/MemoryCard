@@ -122,7 +122,24 @@ function App() {
             );
           })}
         </div>
-        <footer>Text here checking for life</footer>
+        <footer>
+          Made by{" "}
+          <a
+            href="https://www.ishmamchowdhury.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Ishmam Chowdhury
+          </a>{" "}
+          for{" "}
+          <a
+            href="https://www.theodinproject.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            The Odin Project
+          </a>
+        </footer>
       </div>
     </>
   );

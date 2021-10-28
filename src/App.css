@@ -42,7 +42,7 @@ body {
 }
 
 .singleItem {
-  border: 4px solid #aa7f5a;
+  border: 2px solid #835d3c;
   border-radius: 1em;
   text-align: center;
   padding: 1em;
@@ -50,15 +50,26 @@ body {
 
 .singleItem p {
   font-weight: bold;
-  font-size: large;
+  font-size: medium;
 }
 
 .singleItem img {
-  height: 7em;
-  width: 7em;
+  height: 8em;
+  width: 8em;
 }
 
 footer {
   text-align: center;
-  margin: 2em;
+  margin: 1em;
+  font-style: italic;
+}
+
+footer a {
+  text-decoration: none;
+  color: #884b15;
+  font-weight: 700;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
