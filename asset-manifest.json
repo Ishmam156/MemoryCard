@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/MemoryCard/static/css/main.6d7130d0.chunk.css",
-    "main.js": "/MemoryCard/static/js/main.74d339e4.chunk.js",
-    "main.js.map": "/MemoryCard/static/js/main.74d339e4.chunk.js.map",
+    "main.css": "/MemoryCard/static/css/main.a0032aa5.chunk.css",
+    "main.js": "/MemoryCard/static/js/main.bff8cdb5.chunk.js",
+    "main.js.map": "/MemoryCard/static/js/main.bff8cdb5.chunk.js.map",
     "runtime-main.js": "/MemoryCard/static/js/runtime-main.04a9771a.js",
     "runtime-main.js.map": "/MemoryCard/static/js/runtime-main.04a9771a.js.map",
     "static/js/2.68bc4442.chunk.js": "/MemoryCard/static/js/2.68bc4442.chunk.js",
     "static/js/2.68bc4442.chunk.js.map": "/MemoryCard/static/js/2.68bc4442.chunk.js.map",
     "index.html": "/MemoryCard/index.html",
-    "static/css/main.6d7130d0.chunk.css.map": "/MemoryCard/static/css/main.6d7130d0.chunk.css.map",
+    "static/css/main.a0032aa5.chunk.css.map": "/MemoryCard/static/css/main.a0032aa5.chunk.css.map",
     "static/js/2.68bc4442.chunk.js.LICENSE.txt": "/MemoryCard/static/js/2.68bc4442.chunk.js.LICENSE.txt",
     "static/media/Baron.31647138.jpeg": "/MemoryCard/static/media/Baron.31647138.jpeg",
     "static/media/Chani.a905f5d2.jpeg": "/MemoryCard/static/media/Chani.a905f5d2.jpeg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.04a9771a.js",
     "static/js/2.68bc4442.chunk.js",
-    "static/css/main.6d7130d0.chunk.css",
-    "static/js/main.74d339e4.chunk.js"
+    "static/css/main.a0032aa5.chunk.css",
+    "static/js/main.bff8cdb5.chunk.js"
   ]
 }
