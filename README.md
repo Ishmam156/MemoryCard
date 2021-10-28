@@ -14,6 +14,7 @@
 
 <ul>
   <li>Randomly shuffles the cards of characters</li>
+  <li>Written in TypeScript to allow types checking</li>
   <li>Keeps track of current score as well as high score once a round has ended</li>
   <li>Allows users to restart the game once finished</li>
 </ul>
