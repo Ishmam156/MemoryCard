@@ -58,6 +58,7 @@ body {
 .singleItem img {
   height: 8em;
   width: 8em;
+  border-radius: 5em;
 }
 
 footer {
@@ -74,4 +75,26 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+.winnerDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  color: #634327;
+}
+
+.winnerDiv button {
+  padding: 1em;
+  background-color: #634327;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+.winnerDiv button:hover {
+  box-shadow: 3px 3px #835d3c;
 }
